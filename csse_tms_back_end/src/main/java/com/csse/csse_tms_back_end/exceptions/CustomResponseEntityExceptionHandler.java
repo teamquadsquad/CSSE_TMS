@@ -12,8 +12,14 @@ import org.springframework.web.context.request.WebRequest;
 public class CustomResponseEntityExceptionHandler {
 
     @ExceptionHandler
-    public final ResponseEntity<Object> handlePassengerIdException(PassengerIdException ex, WebRequest request){
+    public final ResponseEntity<Object> handlePassengerIdException(PassengerIdException ex, WebRequest request) {
         PassengerIdExceptionResponse exceptionResponse = new PassengerIdExceptionResponse(ex.getMessage());
+        return new ResponseEntity(exceptionResponse, HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler
+    public final ResponseEntity<Object> handleTripIdException(TripIdException ex, WebRequest request) {
+        TripIdExceptionResponse exceptionResponse = new TripIdExceptionResponse(ex.getMessage());
         return new ResponseEntity(exceptionResponse, HttpStatus.BAD_REQUEST);
     }
 
