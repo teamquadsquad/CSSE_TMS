@@ -9,6 +9,8 @@ import Notification from "./notification";
 import Recharge from "./recharge";
 import TimeTables from "./timeTables";
 import Profile from "./profile";
+import CheckOut from "./checkOut";
+import Transaction from "./transaction";
 
 class Body extends Component {
     render() {
@@ -27,6 +29,8 @@ class Body extends Component {
                         <Route path="/recharge" component={Recharge} ></Route>
                         <Route path="/time_tables" component={TimeTables} ></Route>
                         <Route path="/profile" component={Profile} ></Route>
+                        <Route path="/checkOut" component={CheckOut} ></Route>
+                        <Route path="/transaction" component={Transaction} ></Route>
                     </Switch>
 
                 </div>

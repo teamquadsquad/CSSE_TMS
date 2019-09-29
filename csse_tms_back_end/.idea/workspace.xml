@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="181b7f77-ca24-4439-bd31-89fe883e202b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csse/csse_tms_back_end/model/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csse/csse_tms_back_end/model/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/csse_tms_back_end.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/csse/csse_tms_back_end/model/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/csse/csse_tms_back_end/model/Passenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/csse/csse_tms_back_end/services/MapValidationErrorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/csse/csse_tms_back_end/services/MapValidationErrorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/csse/csse_tms_back_end/services/PassengerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/csse/csse_tms_back_end/services/PassengerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/csse/csse_tms_back_end/web/PassengerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/csse/csse_tms_back_end/web/PassengerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../csse_tms_front_end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../csse_tms_front_end/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,7 +147,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -310,16 +302,15 @@
       <workItem from="1569583530076" duration="2760000" />
       <workItem from="1569600417392" duration="7452000" />
       <workItem from="1569661706132" duration="6861000" />
-      <workItem from="1569717364011" duration="305000" />
+      <workItem from="1569717364011" duration="710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7166000" />
+    <option name="totallyTimeSpent" value="7571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
