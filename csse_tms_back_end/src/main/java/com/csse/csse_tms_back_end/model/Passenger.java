@@ -35,7 +35,7 @@ public class Passenger {
     @NotBlank(message = "qr is required")
     private String qrimage;
 
-    private String balance;
+    private double balance;
 
     public Passenger() {
     }
@@ -112,11 +112,11 @@ public class Passenger {
         this.qrimage = qrimage;
     }
 
-    public String getBalance() {
+    public double getBalance() {
         return balance;
     }
 
-    public void setBalance(String balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 }
